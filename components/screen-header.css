@@ -1,0 +1,50 @@
+.screen-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.screen-header__title {
+    color: white;
+    font-size: 30px;
+}
+
+.screen-header__icon {
+    display: flex;
+}
+
+.screen-header__icon span {
+    margin-left: 20px;
+}
+
+@keyframes musicdance {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: rotateZ(45deg);
+    }
+    75% {
+        transform: rotateZ(-30deg);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+.fa-music:hover {
+     animation: musicdance 0.5s linear infinite;
+}
+
+@keyframes gear {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.fa-gear:hover {
+    animation: gear 1s linear infinite;
+}

@@ -1,0 +1,33 @@
+.topbar {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid var(--sub-color);
+    color: white;
+    padding: 2px 8px;
+}
+
+.topbar__left {
+    width: 33%;
+}
+
+.topbar__left i {
+   margin-left: 10px;
+}
+
+.topbar__middle {
+    display: flex;
+    justify-content: center;
+    width: 33%;
+}
+
+.topbar__right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 33%;
+}
+
+.topbar__right i:last-child,
+.topbar__right span {
+    margin-left: 8px;
+}

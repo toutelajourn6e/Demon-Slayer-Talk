@@ -1,0 +1,26 @@
+.badge {
+    background-color: tomato;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 17px;
+    left: 20px;
+    animation: flip-badge 3s ease-in-out infinite;
+}
+
+@keyframes flip-badge {
+    0% {
+      transform: none;
+    }
+    50% {
+      transform: translateY(-15px);
+      transform: rotateY(360deg);
+    }
+    100% {
+       transform: none;
+    }
+}

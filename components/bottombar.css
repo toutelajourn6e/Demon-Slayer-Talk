@@ -1,0 +1,19 @@
+.bottombar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 2px solid var(--sub-color);
+}
+
+.bottombar__chats {
+    position: relative;
+}
+
+.bottombar i {
+    font-size: 35px;
+}

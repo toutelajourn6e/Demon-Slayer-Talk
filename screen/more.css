@@ -1,0 +1,25 @@
+.my-profile__icon {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    font-size: 30px;
+}
+
+#class {
+    border-bottom: none;
+}
+
+.suggestion {
+
+}
+
+.suggestion__icons-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+
+.suggestion__icons-text {
+    font-size: 15px;
+}

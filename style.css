@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Mochiy+Pop+One&display=swap');
+@import "variable.css";
+@import "components/topbar.css";
+@import "screen/index.css";
+@import "screen/friends.css";
+@import "components/bottombar.css";
+@import "components/badge.css";
+@import "components/screen-header.css";
+@import "screen/chats.css";
+@import "screen/chat-ino.css";
+@import "screen/find.css";
+@import "screen/more.css";
+@import "components/icon-row.css";
+@import "screen/setting.css";
+@import "components/no-mobile.css";
+
+body {
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Mochiy Pop One', sans-serif;
+    background-color: var(--main-color);
+    color: white;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+i {
+    color: white;
+}

@@ -1,0 +1,116 @@
+.padding {
+    padding: 0px 20px 20px 20px;
+}
+.friends-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+    font-size: 17px;
+}
+
+.friends-display a {
+    margin-right: 5px;
+    padding-bottom: 3px;
+}
+
+.friends-display i {
+    margin-right: 10px;
+}
+
+.my-profile {
+    display: flex;
+    padding: 20px 0px;
+}
+
+
+.my-profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
+    margin-right: 25px;
+}
+
+.my-profile__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.my-profile__info-title {
+    font-size: 18px;
+}
+
+.my-profile__info-sub {
+    margin-top: 8px;
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+.chart-name {
+    display: block;
+    font-size: 12px;
+    opacity: 0.7;
+    border-top: 1px solid var(--sub-color);
+    padding: 20px 0px;
+}
+
+.friends-profile {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.friends-profile img {
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+
+.friends-profile__title {
+    font-size: 18px;
+    padding-bottom: 2px;
+}
+
+.channel {
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+    font-size: 15px;
+}
+
+.channel span {
+    padding-bottom: 3px;
+    margin-right: 5px;
+}
+
+@keyframes hidesplash {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+#splash-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    animation: hidesplash 1s ease-in-out forwards;
+}
+
+.fa-chevron-right {
+    transition: color 0.3s linear;
+}
+
+.fa-chevron-right:hover {
+     color: var(--sub-color);
+}

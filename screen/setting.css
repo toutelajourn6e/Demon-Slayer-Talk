@@ -1,0 +1,18 @@
+#class2 {
+    margin-right: 40px;
+}
+
+.setting {
+    padding: 20px 0px;
+    border-bottom: 1px solid rgba(192, 41, 41, 0.6);
+}
+.setting i {
+    margin-right: 20px;
+}
+
+#version span:last-child {
+    margin-left: 150px;
+    font-size: 16px;
+    opacity: 0.6;
+}
+
